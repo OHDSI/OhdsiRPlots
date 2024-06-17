@@ -1,0 +1,30 @@
+Package: OhdsiRPlots
+Type: Package
+Title: OhdsiRPlots: Some basic plots customized to OHDSI themes.
+Version: 0.0.1
+Date: 2024-06-01
+Authors@R: c(
+    person("Gowtham", "Rao", email = "rao@ohdsi.org", role = c("aut", "cre")),
+    person("Observational Health Data Science and Informatics", role = c("cph"))
+  )
+Maintainer: Gowtham Rao <rao@ohdsi.org>
+Description: The OhdsiRPlots R package has some basic plots customized to OHDSI themes. Helps make plots for OHDSI studies be more uniform.
+Depends:
+	DatabaseConnector (>= 5.0.0),
+	R (>= 4.1.0)
+Imports:
+    checkmate,
+    dplyr,
+    lifecycle,
+    rlang
+Suggests:
+	testthat
+Remotes:
+License: Apache License
+RoxygenNote: 7.3.1
+VignetteBuilder: knitr
+Roxygen: list(markdown = TRUE)
+Encoding: UTF-8
+Language: en-US
+URL: https://ohdsi.github.io/OhdsiRPlots/, https://github.com/OHDSI/OhdsiRPlots
+BugReports: https://github.com/OHDSI/OhdsiRPlots/issues
